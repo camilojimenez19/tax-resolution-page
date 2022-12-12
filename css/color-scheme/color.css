@@ -1,0 +1,151 @@
+									/* ------------------------===============================================----------------------------- */
+															/* ---------------->>> COLOR CSS <<<------------- */
+									/* ------------------------================================================---------------------------- */ 
+	
+/* =================================================================== 
+						GENERAL
+======================================================================*/									
+.text-color,a.text-color {
+	color:#1359a0;
+}
+a:focus, a:hover,a.btn-link:hover,a.btn-link:focus,
+.btn-link.letter-spacing.typo-grey:hover,.btn-link.letter-spacing.typo-grey:focus {
+    color: #1359a0;
+}
+.theme-bg {
+	background-color: #1359a0;
+}
+.theme-overlay,
+.isotope-grid .img-wrapper .overlay {
+	background-color:rgba(19, 89, 160,0.9);
+}
+.icon-list > li:before {
+	color: #1359a0;
+}
+/* =================================================================== 
+						BUTTON
+======================================================================*/
+.btn.btn-default,.navbar-default .navbar-nav > li > a.btn.btn-default {
+    background-color: #1359a1;
+}	
+.btn.btn-default:hover,.btn.btn-default:focus {
+	background-color:rgba(19, 89, 160,0.8);
+}
+/* =================================================================== 
+						BREADCRUMB
+======================================================================*/
+.breadcrumb > li > a {
+    color: #1359a0;
+}
+/* =================================================================== 
+						PAGINATION
+======================================================================*/
+.pagination > .active > a, .pagination > .active > a:focus, .pagination > .active > a:hover, .pagination > .active > span, .pagination > .active > span:focus, .pagination > .active > span:hover {
+	background-color: #1359a0;
+}
+/* =================================================================== 
+						ACCODION
+======================================================================*/
+.panel-group .panel-title > a {
+	background-color: #1359a0;
+}
+/* =================================================================== 
+						OWL SLIDER
+======================================================================*/
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #1359a0;
+}
+/* =================================================================== 
+						NAVIGATION MENU
+======================================================================*/
+.navbar-default .navbar-nav > li:hover > a,.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a.active {
+	color:#1359a0;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
+    color: #1359a0;
+}
+.dropdown-menu {
+	border-color: #1359a0;
+}
+.dropdown-menu > li > a.active,.dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {
+    background-color: #1359a0;
+    color: #fff;
+}
+.header-type-4,.header-type-4 .navbar-default {
+	background: #1359a0;
+}
+.icon-box .icon-wrapper i {
+	color:#1359a0;
+}	
+
+/* =================================================================== 
+						SECTION TITLE
+======================================================================*/
+.bottom-line:after {
+	background: #1359a0;
+}
+/* =================================================================== 
+						ICON GRID
+======================================================================*/
+.icon-grid.icon-grid-bg:hover {
+	background: #1359a0;
+}
+.icon-grid i.icon-circle {
+	color: #1359a0;
+}
+.icon-grid:hover i.icon-circle,.icon-grid:hover i.icon-circle {
+	background: #1359a0;
+}
+/* =================================================================== 
+					OPEN POSITION
+======================================================================*/
+.table.table-position > thead > tr > th {
+	background: #1359a0;
+}
+/* =================================================================== 
+						WIDGET
+======================================================================*/
+.sidebar .widget-title:after {
+	background: #1359a0;
+}
+.menu-widget ul > li > a:hover,.menu-widget ul > li > a:focus,.menu-widget ul > li > a.active,
+.brochures-widget ul > li > a:hover,.brochures-widget ul > li > a:focus {
+	background: #1359a0;
+}
+/* =================================================================== 
+						FOOTER
+======================================================================*/
+footer .input-group-btn > .btn:hover,footer .input-group-btn > .btn:focus {
+	 color: #1359a0;
+}
+
+/* =================================================================== 
+						SECONDARY COLOR
+======================================================================*/
+.theme-bg .text-color {
+	color:#edc216;
+}
+.header-type-4 .nav-top a:hover,.header-type-4 .nav-top a:focus,
+.header-type-4 .navbar-default .menu-inline > li:hover > a,.header-type-4 .navbar-default .menu-inline > li > a.active,.header-type-4 .navbar-default .menu-inline > li > a:hover,.header-type-4 .navbar-default .menu-inline > li > a:focus,
+.header-type-4 .navbar-toggle:hover,.header-type-4 .navbar-toggle:focus {
+	color:#edc216;
+}
+.accordion-plus.panel-group .panel-title > a:after {
+	color:#edc216;
+}	
+.brochures-widget ul > li > a:hover .file-type {
+	color: #edc216;
+}
+/******************************************************************************
+  Max Width "767px"
+*******************************************************************************/
+
+@media screen and (max-width: 767px){
+	.dropdown-menu > li > a.active, .dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {
+		color: #1359a0 !important;
+	}
+	.header-type-2 .dropdown-menu > li > a.active, .header-type-2 .dropdown-menu > li > a:focus, .header-type-2 .dropdown-menu > li > a:hover,
+	.header-type-4 .dropdown-menu > li > a.active, .header-type-4 .dropdown-menu > li > a:focus, .header-type-4 .dropdown-menu > li > a:hover {
+		color: #edc216 !important;
+	}
+}

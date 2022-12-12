@@ -1,0 +1,151 @@
+									/* ------------------------===============================================----------------------------- */
+															/* ---------------->>> COLOR CSS <<<------------- */
+									/* ------------------------================================================---------------------------- */ 
+	
+/* =================================================================== 
+						GENERAL
+======================================================================*/									
+.text-color,a.text-color {
+	color:#ECC116;
+}
+a:focus, a:hover,a.btn-link:hover,a.btn-link:focus,
+.btn-link.letter-spacing.typo-grey:hover,.btn-link.letter-spacing.typo-grey:focus {
+    color: #ECC116;
+}
+.theme-bg {
+	background-color: #ECC116;
+}
+.theme-overlay,
+.isotope-grid .img-wrapper .overlay {
+	background-color:rgba(236,193, 22,0.9);
+}
+.icon-list > li:before {
+	color: #ECC116;
+}
+/* =================================================================== 
+						BUTTON
+======================================================================*/
+.btn.btn-default,.navbar-default .navbar-nav > li > a.btn.btn-default {
+    background-color: #ECC116;
+}
+.btn.btn-default:hover,.btn.btn-default:focus {
+	background-color:rgba(236,193, 22,0.8);
+}
+/* =================================================================== 
+						BREADCRUMB
+======================================================================*/
+.breadcrumb > li > a {
+    color: #ECC116;
+}
+/* =================================================================== 
+						PAGINATION
+======================================================================*/
+.pagination > .active > a, .pagination > .active > a:focus, .pagination > .active > a:hover, .pagination > .active > span, .pagination > .active > span:focus, .pagination > .active > span:hover {
+	background-color: #ECC116;
+}
+/* =================================================================== 
+						ACCODION
+======================================================================*/
+.panel-group .panel-title > a {
+	background-color: #ECC116;
+}
+/* =================================================================== 
+						OWL SLIDER
+======================================================================*/
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #ECC116;
+}
+/* =================================================================== 
+						NAVIGATION MENU
+======================================================================*/
+.navbar-default .navbar-nav > li:hover > a,.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a.active {
+	color:#ECC116;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
+    color: #ECC116;
+}
+.dropdown-menu {
+	border-color: #ECC116;
+}
+.dropdown-menu > li > a.active,.dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {
+    background-color: #ECC116;
+    color: #fff;
+}
+.header-type-4,.header-type-4 .navbar-default {
+	background: #ECC116;
+}
+.icon-box .icon-wrapper i {
+	color:#ECC116;
+}	
+
+/* =================================================================== 
+						SECTION TITLE
+======================================================================*/
+.bottom-line:after {
+	background: #ECC116;
+}
+/* =================================================================== 
+						ICON GRID
+======================================================================*/
+.icon-grid.icon-grid-bg:hover {
+	background: #ECC116;
+}
+.icon-grid i.icon-circle {
+	color: #ECC116;
+}
+.icon-grid:hover i.icon-circle,.icon-grid:hover i.icon-circle {
+	background: #ECC116;
+}
+/* =================================================================== 
+					OPEN POSITION
+======================================================================*/
+.table.table-position > thead > tr > th {
+	background: #ECC116;
+}
+/* =================================================================== 
+						WIDGET
+======================================================================*/
+.sidebar .widget-title:after {
+	background: #ECC116;
+}
+.menu-widget ul > li > a:hover,.menu-widget ul > li > a:focus,.menu-widget ul > li > a.active,
+.brochures-widget ul > li > a:hover,.brochures-widget ul > li > a:focus {
+	background: #ECC116;
+}
+/* =================================================================== 
+						FOOTER
+======================================================================*/
+footer .input-group-btn > .btn:hover,footer .input-group-btn > .btn:focus {
+	 color: #ECC116;
+}
+
+/* =================================================================== 
+						SECONDARY COLOR
+======================================================================*/
+.theme-bg .text-color {
+	color:#fff;
+}
+.header-type-4 .nav-top a:hover,.header-type-4 .nav-top a:focus,
+.header-type-4 .navbar-default .menu-inline > li:hover > a,.header-type-4 .navbar-default .menu-inline > li > a.active,.header-type-4 .navbar-default .menu-inline > li > a:hover,.header-type-4 .navbar-default .menu-inline > li > a:focus,
+.header-type-4 .navbar-toggle:hover,.header-type-4 .navbar-toggle:focus {
+	color:#fff;
+}
+.accordion-plus.panel-group .panel-title > a:after {
+	color:#fff;
+}	
+.brochures-widget ul > li > a:hover .file-type {
+	color: #fff;
+}
+/******************************************************************************
+  Max Width "767px"
+*******************************************************************************/
+
+@media screen and (max-width: 767px){
+	.dropdown-menu > li > a.active, .dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {
+		color: #ECC116 !important;
+	}
+	.header-type-2 .dropdown-menu > li > a.active, .header-type-2 .dropdown-menu > li > a:focus, .header-type-2 .dropdown-menu > li > a:hover,
+	.header-type-4 .dropdown-menu > li > a.active, .header-type-4 .dropdown-menu > li > a:focus, .header-type-4 .dropdown-menu > li > a:hover {
+		color: #fff !important;
+	}
+}
