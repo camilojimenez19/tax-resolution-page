@@ -5,3 +5,12 @@
 .testimonial-title{
     bottom: -20px;
 }
+
+.services-grid .icon-box .services-desc{
+    max-width: 270px;
+    text-align: justify;
+}
+
+.services-grid .icon-box .services-desc > h5{
+    text-align: left;
+}
