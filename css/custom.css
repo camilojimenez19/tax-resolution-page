@@ -14,3 +14,12 @@
 .services-grid .icon-box .services-desc > h5{
     text-align: left;
 }
+
+#aboutus-section .section-title p {
+    text-align: justify;
+}
+
+.services-heading > span {
+    position: initial;
+    display: block;
+}
